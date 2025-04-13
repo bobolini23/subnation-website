@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubNation Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            color: red;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .product p {
+            font-size: 1.1em;
+        }
+
+        .product button {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .product button:hover {
+            background-color: darkred;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1a1a1a;
+            color: red;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    SubNation Store
+</header>
+
+<section class="product-grid">
+    <!-- Netflix -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+        <h3>Netflix (1 Month)</h3>
+        <p>$8 / 80 NOK / 32 SAR</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Disney+ -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Disney%2B_logo.svg" alt="Disney+ Logo">
+        <h3>Disney+</h3>
+        <p>$7 / 70 NOK / 28 SAR</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Spotify -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Spotify_logo_with_text.svg" alt="Spotify Logo">
+        <h3>Spotify (1 Month)</h3>
+        <p>$4 / 40 NOK / 16 SAR</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Xbox -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Xbox_logo.svg" alt="Xbox Logo">
+        <h3>Xbox Gift Card</h3>
+        <p>$5 / 50 NOK / 20 SAR</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- PlayStation -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/PlayStation_Logo_2020.svg" alt="PlayStation Logo">
+        <h3>PlayStation Gift Card</h3>
+        <p>$10 / 100 NOK / 40 SAR</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Steam -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Steam_logo.svg" alt="Steam Logo">
+        <h3>Steam Gift Card</h3>
+        <p>$10 / 100 NOK / 40 SAR</p>
+        <button>Buy Now</button>
+    </div>
+</section>
+
+<footer>
+    SubNation - Best Prices on Subscriptions & Gift Cards
+</footer>
+
+</body>
+</html>
